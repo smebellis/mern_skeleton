@@ -4,63 +4,54 @@ Establishes skeleton code for quick and easy use in establishing a new MERN WebA
 
 ## Folder and File Structure
 
-- ```
-    | mern-simplesetup/
-        | -- config/
-            | --- config.js
-        | -- server/
-            | --- controllers/
-                | ---- auth.controller.js
-                | ---- user.controller.js
-            | --- helpers/
-                | ---- dbErrorHandler.js
-            | --- models/
-                | ---- user.model.js
-            | --- routes/
-                | ---- auth.routes.js
-                | ---- user.routes.js
-            | --- express.js
-            | --- server.js
-        | -- client/
-            | --- assets/
-                | ---- images/
-            | --- auth/
-                | ---- api-auth.js
-                | ---- auth-helper.js
-                | ---- PrivateRoute.js
-                | ---- Signin.js
-            | --- core/
-                | ---- Home.js
-                | ---- Menu.js
-            | --- user/
-                | ---- api-user.js
-                | ---- DeleteUser.js
-                | ---- EditProfile.js
-                | ---- Profile.js
-                | ---- Signup.js
-                | ---- Users.js
-            | --- App.js
-            | --- main.js
-            | --- MainRouter.js
-            | --- theme.js
-        | -- .gitignore
-        | -- .bablerc
-        | -- nodemon.json
-        | -- package.json
-        | -- template.js
-        | -- webpack.config.server.js
-        | -- webpack.config.client.js
-        | -- webpack.config.client.production.js
-
-
-
-
-
-
-
-
-
-  ```
+```
+   | mern-simplesetup/
+       | -- config/
+           | --- config.js
+       | -- server/
+           | --- controllers/
+               | ---- auth.controller.js
+               | ---- user.controller.js
+           | --- helpers/
+               | ---- dbErrorHandler.js
+           | --- models/
+               | ---- user.model.js
+           | --- routes/
+               | ---- auth.routes.js
+               | ---- user.routes.js
+           | --- express.js
+           | --- server.js
+       | -- client/
+           | --- assets/
+               | ---- images/
+           | --- auth/
+               | ---- api-auth.js
+               | ---- auth-helper.js
+               | ---- PrivateRoute.js
+               | ---- Signin.js
+           | --- core/
+               | ---- Home.js
+               | ---- Menu.js
+           | --- user/
+               | ---- api-user.js
+               | ---- DeleteUser.js
+               | ---- EditProfile.js
+               | ---- Profile.js
+               | ---- Signup.js
+               | ---- Users.js
+           | --- App.js
+           | --- main.js
+           | --- MainRouter.js
+           | --- theme.js
+       | -- .gitignore
+       | -- .bablerc
+       | -- nodemon.json
+       | -- package.json
+       | -- template.js
+       | -- webpack.config.server.js
+       | -- webpack.config.client.js
+       | -- webpack.config.client.production.js
+```
 
 ## Server-side code
 
